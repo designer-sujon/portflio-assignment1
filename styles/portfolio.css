@@ -177,7 +177,7 @@ main{
     gap: 60px;
    
 }
-/* My Inspiration Title */
+/* My Inspiration styles */
 .my-insp-container{
    
     display: flex;
@@ -208,6 +208,7 @@ main{
 }
 .insp-video{
     box-sizing: border-box;
+    background-color: rgb(253, 251, 251);
     border: 1px solid rgba(65, 73, 94, 0.2);
     border-radius: 16px;
     display: flex;
@@ -215,9 +216,98 @@ main{
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 40px;
+    margin-bottom: 60px;
     
     
 }
 .video{
     padding: 32px 32px 32px 32px;
+}
+/*  My current target styles*/
+
+.target-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-primary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin-bottom: 30px;
+}
+.description-primary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 850px;
+}
+.target-1{
+    position: static;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 20px;
+    padding: 40px;
+}
+.target-name{
+    width: 284px;
+    color: rgb(13, 19, 33);
+     font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.target-description{
+   width: 400;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.target-2{
+    position: static;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 20px;
+    padding: 40px;
+}
+
+.target-3{
+    position: static;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 20px;
+    padding: 40px;
+}
+.target-all{
+    display: flex;
+    gap: 25px;
+    margin-top: 48px;
+    margin-bottom: 40px;
 }
