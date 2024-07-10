@@ -314,33 +314,83 @@ main{
 /* need support */
 .handshak-bg{
     background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     padding: 64px 48px 64px 48px;
     margin-bottom: 50px;
+}
+.support-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .support-title{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
 }
+
+.support-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .support-description{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-   
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
 }
+.feedback{
+    position: static;
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding: 20px;
+
+
+}
+.feedback-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-feedback{
+    position: static;
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border-color: white;
+    font-size: ;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}   
